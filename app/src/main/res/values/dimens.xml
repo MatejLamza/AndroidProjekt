@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="topMarignText">150dp</dimen>
+    <dimen name="svHeight">50dp</dimen>
+    <dimen name="ivDimension">70dp</dimen>
+    <dimen name="ivMargin">55dp</dimen>
+    <dimen name="tempMarginTop">60dp</dimen>
+    <dimen name="tempMarginStart">15dp</dimen>
+    <dimen name="tempTextSize">60sp</dimen>
+    <dimen name="tempMarginLeft">15dp</dimen>
+    <dimen name="tvSimbolTxtSize">60sp</dimen>
+    <dimen name="tvCelsiusTxtSize">30sp</dimen>
+    <dimen name="tvDescTxtSize">15sp</dimen>
+    <dimen name="tvCityMarginStart">20dp</dimen>
+    <dimen name="tvCityMarginTop">15dp</dimen>
+    <dimen name="tvCityTxtSize">30sp</dimen>
+    <dimen name="tvCityMarginLeft">20dp</dimen>
+    <dimen name="tvDescLiTxtSize">15sp</dimen>
+    <dimen name="maxTempMarginLeft">30dp</dimen>
+    <dimen name="maxTempTxtSIze">40sp</dimen>
+    <dimen name="minTempTxtSize">40sp</dimen>
+    <dimen name="minTempMarginRight">15dp</dimen>
+    <dimen name="ivIconSize">50dp</dimen>
+</resources>

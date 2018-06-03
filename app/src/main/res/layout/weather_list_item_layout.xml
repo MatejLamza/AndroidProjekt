@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="@dimen/ivIconSize"
+        android:layout_height="@dimen/ivIconSize"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/sunny" />
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/tvDateListItem"
+            android:textSize="25dp"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvDescriptionListItem"
+            android:textSize="@dimen/tvDescLiTxtSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvMaxTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/maxTempMarginLeft"
+        android:textColor="@color/darkgrey"
+        android:textSize="@dimen/maxTempTxtSIze" />
+
+    <TextView
+        android:id="@+id/tvMinTemp"
+        android:textSize="@dimen/minTempTxtSize"
+        android:textColor="@color/lightgrey"
+        android:gravity="right"
+        android:layout_marginRight="@dimen/minTempMarginRight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
